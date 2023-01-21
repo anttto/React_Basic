@@ -21,7 +21,7 @@ export default function Products() {
       }
       
       <input type="checkbox" id="chkSale" value={checked} onChange={handleChange} />
-      <label htmlFor="chkSale">Show only Hot Sale</label>
+      <label htmlFor="chkSale">Show only Hot Sale!</label>
       <ul>
         {products.map((product) => (   
             <li key={product.id}>
